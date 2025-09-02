@@ -30,14 +30,6 @@ OpenCV / PIL (for image processing)
 
 NumPy, Pandas (data handling)
 
-⚙️ Installation
-
-Clone the repository
-
-git clone https://github.com/your-username/skin-disease-detection.git
-cd skin-disease-detection
-
-
 Set up virtual environment
 
 python -m venv venv
@@ -71,26 +63,10 @@ Model type: Convolutional Neural Network (CNN)
 Input: Preprocessed skin image (resized, normalized)
 
 Output: Predicted label(s) + confidence score
-
-Example normalization:
-
-𝑥
-′
-=
-𝑥
-−
-𝜇
-𝜎
-x
-′
-=
-σ
-x−μ
 	​
 
 💡 Inspiration
-
-We were inspired by the need for accessible early detection tools in healthcare. With AI, even a smartphone can help raise awareness about skin health.
+I was inspired by the need for accessible early detection tools in healthcare. With AI, even a smartphone can help raise awareness about skin health.
 
 📚 Challenges
 
@@ -100,18 +76,4 @@ Training CNNs within hackathon time limits.
 
 Balancing speed and accuracy for demo purposes.
 
-🌍 Future Plans
 
-Expand to cover more conditions.
-
-Improve accuracy with larger datasets.
-
-Integrate telemedicine for doctor consultations.
-
-🤝 Contributing
-
-Pull requests are welcome! If you’d like to suggest improvements, feel free to open an issue.
-
-📜 License
-
-MIT License — free to use, modify, and distribute.
