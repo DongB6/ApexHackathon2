@@ -48,7 +48,7 @@ print("Loading dataset...")
 # test_dataset = dataset_sample.select(range(900, 1000))
 
 
-dataset = load_dataset("huggingface/cancer-detection", streaming=True)
+dataset = load_dataset("tbuckley/synthetic-derm-1M", streaming=True)
 dataset_sample = dataset.take(1000)  # Takes first 1000 without full download
 
 # Convert to regular dataset for easier use
